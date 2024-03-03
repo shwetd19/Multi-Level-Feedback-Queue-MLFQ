@@ -10,9 +10,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/shwetd19/Multi-Level-Feedback-Queue-MLFQ">
+  <a href="https://github.com/shwetd19/Multi-Level-Feedback-Queue-MLFQ">
     <img src="assets/logo.png" alt="Logo" width="80" height="80">
-  </a> -->
+  </a>
 
   <h3 align="center">⚖️ Multi-Level Feedback Queue Scheduling Algorithms 🤝</h3>
 
@@ -108,7 +108,7 @@ The Multi-Level Feedback Queue (MLFQ) dynamically prioritizes processes based on
             }
         }
     ```
-  - 3. Sorting Cases Within Each Queue
+- 3. Sorting Cases Within Each Queue
     ```js
         for (let i = 0; i < this.queues.length; i++) {
         const priorityLabel = this.getPriorityLabel(i);
@@ -119,16 +119,16 @@ The Multi-Level Feedback Queue (MLFQ) dynamically prioritizes processes based on
 ### Usage
 
 Just go to your terminal and enter
-
-    ```js
+    ```sh
         node mlfq.js
     ```
+
+Explore the provided examples to see how MLFQ scheduling can be applied to different sets of processes. These examples showcase various 
+scenarios to help you understand the algorithm's behavior in different situations. 
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Explore the provided examples to see how MLFQ scheduling can be applied to different sets of processes. These examples showcase various 
-scenarios to help you understand the algorithm's behavior in different situations. 
 
 
 
