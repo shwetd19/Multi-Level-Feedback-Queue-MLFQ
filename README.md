@@ -116,13 +116,6 @@ The Multi-Level Feedback Queue (MLFQ) dynamically prioritizes processes based on
         }
     ```
 
-### Usage
-
-Just go to your terminal and enter
-    ```sh
-        node mlfq.js
-    ```
-
 Explore the provided examples to see how MLFQ scheduling can be applied to different sets of processes. These examples showcase various 
 scenarios to help you understand the algorithm's behavior in different situations. 
 
